@@ -10,7 +10,7 @@ overview of this function:
 def purchase(List):
     L=List #assign list with variable name 'L'.
     a_name=input("Please enter your name: ")
-    print("\nHello "+a_name+"! Welcome to our Electronic Store.\nLook at above and select product as your choice.")
+    print("\nHello "+a_name+"! Welcome to our MyCart(E-Commerce) Electronic Store.\nLook at above and select product as your choice.")
     q={}  #assign empty dictionary with variable name 'q'.
     flag="Y"
     while flag.upper()=="Y":  #check and go if flag is 'Y' or 'y'.
